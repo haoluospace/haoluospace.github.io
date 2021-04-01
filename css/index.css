@@ -317,11 +317,18 @@ header {
 }
 
 /*footer start*/
-footer {
+footer{
     width: 100%;
-    height: 80px;
-    color: whitesmoke;
+    height: 100px;
+
+
     background-color: #00009d;
-    line-height: 80px;
+    overflow: hidden;
+}
+.footer-box {
+    font-size: 16px;
+    margin-top: 30px;
+    font-style: normal;
+    color: whitesmoke;
 }
 /*footer end*/
